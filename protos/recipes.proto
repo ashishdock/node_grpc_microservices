@@ -13,3 +13,5 @@ message Recipe {
   string title = 2;
   string notes = 3;
 }
+
+// Recipes is a service. It includes procedures

@@ -20,3 +20,6 @@ enum OrderStatus {
 message OrderStatusUpdate {
     OrderStatus status = 1;
   }
+
+
+  // We defined the Process procedure to return a stream of OrderStatusUpdate messages to track the order status change events. Besides, the Process procedure expects a OrderRequest message as the parameter.
